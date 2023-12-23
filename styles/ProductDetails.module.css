@@ -1,0 +1,50 @@
+.main {
+  left: 0;
+  top: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 60px;
+  padding: 0px 40px;
+}
+
+.backButton {
+  width: 35px;
+  height: 35px;
+  background-color: #6b6b6b !important;
+}
+.backButton:hover {
+  background-color: white !important;
+}
+.backButton > span {
+  margin-top: -3px;
+  margin-left: -3px;
+}
+
+.contentWrapper {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
