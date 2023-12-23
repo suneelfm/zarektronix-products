@@ -8,6 +8,11 @@ export interface IProduct {
   rating: number;
 }
 
+export interface IProducts {
+  data: Array<IProduct>;
+  totalProducts: number;
+}
+
 export interface IProductCardProps {
   details: IProduct;
   onCardClick: (product: IProduct) => void;
